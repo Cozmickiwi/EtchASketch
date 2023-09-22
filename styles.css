@@ -1,13 +1,42 @@
 .container {
+    
     display: flex;
     background-color: aliceblue;
     flex-wrap: wrap;
     border: 2px solid black;
-    width: 256px;
-    height: 256px;
+    width: 512px;
+    height: 512px;
 }
 .cell {
     background-color: white;
     
     flex-wrap: wrap;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom right, rgb(228, 106, 106), rgb(121, 117, 242));
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 1vw;
+    padding: .5vw;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(173, 221, 249);
+    border: 3px solid rgb(81, 163, 136);
+    border-radius: 3px;
+    
+}
+h1 {
+    font-family: monospace;
+    background-color: rgba(27, 255, 255, 0.573);
+    padding: 1vw;
+    border-radius: 5px;
 }
